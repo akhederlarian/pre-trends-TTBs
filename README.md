@@ -1,5 +1,5 @@
 3. February 2025 
-ReadMe file for “Pre-Trends and Trade Effects of Temporary Trade Barriers” published in the Canadian Journal of Economics. 
+**ReadMe file for “Pre-Trends and Trade Effects of Temporary Trade Barriers” published in the Canadian Journal of Economics**
 Authors: Armen Khederlarian, Sandro Steinbach 
 This README file provides instructions to replicate the results presented in the aforementioned research paper using STATA. We provide do-files to replicate all results in the main article and online appendix and make available the datasets to do so. However, we only provide the do-files to create these datasets and not the raw data because for proprietary reasons the raw trade data used to construct the samples cannot be made available. We explain the steps to replicate the results and each do-file in detail below.
 
