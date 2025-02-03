@@ -10,7 +10,9 @@ The analysis in this paper uses four sources of data:
 2.	U.S. imports downloaded from the U.S. census using the API.  Due to proprietary constraints, this data cannot be made available via the journal's webpage. However, we have included the do-file that allows researchers to download the data themselves. The do-file is called “download_trade_us.do”.
 3.	World trade from the Global Trade Atlas (GTA) commercialized by the IHS Markit (https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas). Because this data was purchased it cannot be made available via the journal's webpage. 
 4.	Updated product concordance files from Pierce and Schott (2012). This raw file used to define the unique concordance between setyr and HS-10 digits can be found in “raw_files/hts_concordance_update.dta”.
-Organization of the Replication Files
+   
+**Organization of the Replication Files**
+
 In the main folder of the replication files you will find all the do-files required to replicate the results.
 The main folder contains the following folders:
 -	do-files: Contains all do-files used to create the data and results of the main paper and online appendix. They are described below.
