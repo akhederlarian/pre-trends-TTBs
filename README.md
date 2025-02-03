@@ -1,6 +1,7 @@
-3. February 2025 
 **ReadMe file for “Pre-Trends and Trade Effects of Temporary Trade Barriers” published in the Canadian Journal of Economics**
+
 Authors: Armen Khederlarian, Sandro Steinbach 
+
 This README file provides instructions to replicate the results presented in the aforementioned research paper using STATA. We provide do-files to replicate all results in the main article and online appendix and make available the datasets to do so. However, we only provide the do-files to create these datasets and not the raw data because for proprietary reasons the raw trade data used to construct the samples cannot be made available. We explain the steps to replicate the results and each do-file in detail below.
 
 **Data Sources and Availability**
@@ -19,7 +20,7 @@ The main folder contains the following folders:
 -	results: Contains the estimation results in stata format used to create all figures of the manuscript and online appendix.
 -	tables: Contains the estimation results in txt format used to create all tables of the manuscript and online appendix.
 -	temporary_files: This folder saves files used in the multiple steps to create the datasets used in the estimation. We have included some of the critical files to allow researchers to replicate some of the steps in creation of our datasets.
--	
+
 **Replication Process**
  	Here we describe how to replicate all results in the main article and online appendix, beginning with raw datasets described in “Data Sources and Availability” above. If you wish to skip the dataset construction and only replicate the estimation using our datasets (which are part of the replications files) go to step 4. If you wish to skip the estimation and only replicate the figures, go to step 5.
 Step 0: Download U.S. Census trade data
