@@ -1,0 +1,1 @@
+All datasets used in the estimation and production of all results (figures and tables) of the manuscript and online appendix in stata format (.dta). See list and description in step of replication process.
