@@ -13,6 +13,7 @@ The analysis in this paper uses four sources of data:
 Organization of the Replication Files
 In the main folder of the replication files you will find all the do-files required to replicate the results.
 The main folder contains the following folders:
+-	do-files: Contains all do-files used to create the data and results of the main paper and online appendix. They are described below.
 -	auxiliary_do_files: Do-files that are called upon by the do-files in the main folder.
 -	datasets: All datasets used in the estimation and production of all results (figures and tables) of the manuscript and online appendix in stata format (.dta).
 -	figures: All figures of the manuscript and online appendix in pdf format.
