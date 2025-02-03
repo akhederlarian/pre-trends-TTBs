@@ -107,7 +107,7 @@ All estimations – those of results in the manuscript as well as the online app
 
 Step 5: Plot figures
 
-All figures can be created directly without performing the corresponding estimation using “5 – plot figures.do”. The file is organized by the order in which figures and tables appear in the manuscript and then in the online appendix. The required estimation results are included in the replication package and found in the folder “results”. The do-file “5 – create tables.do” creates Tables C.1. and C.2. of the Online Appendix.
+All figures can be created directly without performing the corresponding estimation using “5 – plot figures.do”. The file is organized by the order in which figures and tables appear in the manuscript and then in the online appendix. The required estimation results are included in the replication package and found in the folder “results”. The do-file “5 – create tables (appendix).do” creates Tables C.1. and C.2. of the Online Appendix.
 
 **Statement about rights**
 We, the authors, certify that we have legitimate access to the data used in this manuscript and permission to use it as required. We confirm that we have the right to share, post, and redistribute the provided data included in this replication package, in accordance with all applicable data provider agreements. For proprietary data we provide the sources enabling researchers to replicate the data.
