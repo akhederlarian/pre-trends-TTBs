@@ -2,7 +2,8 @@
 ReadMe file for “Pre-Trends and Trade Effects of Temporary Trade Barriers” published in the Canadian Journal of Economics. 
 Authors: Armen Khederlarian, Sandro Steinbach 
 This README file provides instructions to replicate the results presented in the aforementioned research paper using STATA. We provide do-files to replicate all results in the main article and online appendix and make available the datasets to do so. However, we only provide the do-files to create these datasets and not the raw data because for proprietary reasons the raw trade data used to construct the samples cannot be made available. We explain the steps to replicate the results and each do-file in detail below.
-Data Sources and Availability 
+
+**Data Sources and Availability**
 The analysis in this paper uses four sources of data:
 1.	Global Temporary Trade Barriers (GTTB) Database by the World Bank (WB): This data is publicly available online following https://www.worldbank.org/en/data/interactive/2021/03/02/temporary-trade-barriers-database. We downloaded the data used in the analysis by 10/2022. In the replication files you can find the downloaded data in the folders “AD” for antidumping cases and “CVDs” for countervailing duties cases.
 2.	U.S. imports downloaded from the U.S. census using the API.  Due to proprietary constraints, this data cannot be made available via the journal's webpage. However, we have included the do-file that allows researchers to download the data themselves. The do-file is called “download_trade_us.do”.
@@ -17,9 +18,10 @@ The main folder contains the following folders:
 -	raw_files: All raw data used to create the datasets. As described above, due to proprietary constraints we cannot post the raw trade data used.
 -	results: Contains the estimation results in stata format used to create all figures of the manuscript and online appendix.
 -	tables: Contains the estimation results in txt format used to create all tables of the manuscript and online appendix.
--	temporary_files: This folder saves files used in the multiple steps to create the datasets used in the estimation. We have included some of the critical files to allow researchers to replicate some of the steps in creation of our datasets. 
-Replication Process
-Here we describe how to replicate all results in the main article and online appendix, beginning with raw datasets described in “Data Sources and Availability” above. If you wish to skip the dataset construction and only replicate the estimation using our datasets (which are part of the replications files) go to step 4. If you wish to skip the estimation and only replicate the figures, go to step 5.
+-	temporary_files: This folder saves files used in the multiple steps to create the datasets used in the estimation. We have included some of the critical files to allow researchers to replicate some of the steps in creation of our datasets.
+-	
+**Replication Process**
+ 	Here we describe how to replicate all results in the main article and online appendix, beginning with raw datasets described in “Data Sources and Availability” above. If you wish to skip the dataset construction and only replicate the estimation using our datasets (which are part of the replications files) go to step 4. If you wish to skip the estimation and only replicate the figures, go to step 5.
 Step 0: Download U.S. Census trade data
 Here we provide the two do-files we use to download the U.S. census import data between 1990 and 2018. Note users need to create their own API key and store downloaded data themselves.
 “0a – download US imports.do”	Step 1: Request API key on API website.
@@ -77,7 +79,9 @@ All estimations – those of results in the manuscript as well as the online app
 -	Finally, note the do-file calls upon auxiliary do-files that are stored in the folder “auxiliary_do_files”.
 Step 5: Plot figures
 All figures can be created directly without performing the corresponding estimation using “5 – plot figures.do”. The file is organized by the order in which figures and tables appear in the manuscript and then in the online appendix. The required estimation results are included in the replication package and found in the folder “results”.
-Statement about rights: 
+
+**Statement about rights**
 We, the authors, certify that we have legitimate access to the data used in this manuscript and permission to use it as required. We confirm that we have the right to share, post, and redistribute the provided data included in this replication package, in accordance with all applicable data provider agreements. For proprietary data we provide the sources enabling researchers to replicate the data.
-References
+
+**References**
 Pierce, Justin, and Peter Schott (2012) ‘Concording us harmonized system categories over time.’ Journal of Official Statistics 28(1), 53–68
