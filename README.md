@@ -109,6 +109,40 @@ Step 5: Plot figures
 
 All figures can be created directly without performing the corresponding estimation using “5 – plot figures.do”. The file is organized by the order in which figures and tables appear in the manuscript and then in the online appendix. The required estimation results are included in the replication package and found in the folder “results”. The do-file “5 – create tables (appendix).do” creates Tables C.1. and C.2. of the Online Appendix.
 
+**Replication Process: Tables and Figures Main article**
+
+Figure 1: U.S. Antidumping Cases against Imports of Washing Machines	-	Plot figures with “do-files/5 – plot figures.do” lines 4—206.
+
+Figure 2: Pre-Trends and Trade Effects of TTBs	
+-	Estimation standard event study: Lines 6–57 in “do-files/4 – estimation.do”.  Set foreach command line 10 to “val qty uv”, or whatever user is interested in.
+-	Estimation extrapolated approach: Lines 58–175 in “do-files/4 – estimation.do”. Set foreach command line 63 to “val qty uv”, or whatever user is interested in.
+-	Plot figures with “do-files/5 – plot figures.do” lines 212—413.
+
+Figure 3: Import Value Effects by Investigation Outcome	-	Estimation standard event study: Lines 324–401 in “do-files/4 – estimation.do”.  Set foreach command line 328 to “val qty uv”, or whatever user is interested in.
+-	Estimation extrapolated approach: Lines 403–553 in “do-files/4 – estimation.do”. Set foreach command line 407 to “val qty uv”, or whatever user is interested in.
+-	Plot figures with “do-files/5 – plot figures.do” lines 417—525.
+
+Figure 4: Supplier vs. Supplier-Destination Effects
+-	Estimation standard event study: Lines 559–622 in “do-files/4 – estimation.do”.  Set foreach command line 562 to “val qty uv”, or whatever user is interested in.
+-	Estimation extrapolated approach: Lines 623–770 in “do-files/4 – estimation.do”. Set foreach command line 781 to “val qty uv”, or whatever user is interested in.
+-	Plot figures with “do-files/5 – plot figures.do” lines 529—594.
+
+Figure 5: Good-level Effects
+-	Estimation standard event study: Lines 777–828 in “do-files/4 – estimation.do”.  Set foreach command line 328 to “val qty uv”, or whatever user is interested in.
+-	Estimation extrapolated approach: Lines 830–946 in “do-files/4 – estimation.do”. Set foreach command line 834 to “val qty uv”, or whatever user is interested in.
+-	Plot figures with “do-files/5 – plot figures.do” lines 599—666.
+
+Table 1: Summary of Trade Effects
+-	Estimation standard event study: Lines 6–57 in “do-files/4 – estimation.do”.  Set foreach command line 10 to “val qty uv”, or whatever user is interested in.
+-	Estimation extrapolated approach: Lines 58–175 in “do-files/4 – estimation.do”. Set foreach command line 63 to “val qty uv”, or whatever user is interested in.
+-	Estimation static specification: Lines 176–195 in “do-files/4 – estimation.do”. Set foreach command line 190 to “val qty uv”, or whatever user is interested in.
+
+Table 2: Extrapolated Approach with Varying Pre-Investigation Window
+-	Estimation: Lines 200–316 in “do-files/4 – estimation.do”.  Set foreach command line 224 to “4 5 6 12”, or whatever length of pre-investigation period user is interested in.
+
+Table 3: Good-Level Effects	-	Same as Figure 5.
+
+
 **Statement about rights**
 We, the authors, certify that we have legitimate access to the data used in this manuscript and permission to use it as required. We confirm that we have the right to share, post, and redistribute the provided data included in this replication package, in accordance with all applicable data provider agreements. For proprietary data we provide the sources enabling researchers to replicate the data.
 
