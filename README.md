@@ -89,12 +89,12 @@ Step 3: Design estimation samples
 This step is entirely performed by “3 – generate samples.do”.
 The two input files are “merged_imports_qtr_hs10.dta” and “dataset_full_world_yr_hs6.dta”.
 The output files are all the datasets used in the estimation of results of the manuscript and online appendix and which are then stored in the replication folder “datasets”:
-1.	“dataset_base_qtr.dta”
-2.	“dataset_rob1_qtr.dta”
-3.	“dataset_rob2_qtr.dta”
-4.	“dataset_base_qtr_rect.dta”
-5.	“dataset_gt_base_qtr.dta”
-6.	“dataset_world_base_yr.dta”: For proprietary reasons, this dataset is not available in the repository files. Users with access to the data can reproduce the sample using the do-files described above.
+1.	“dataset_base_qtr.dta”: Used for all baseline results in sections 5.1-5.3 including figures 1, 2, and 3 and tables 1 and2 as well as in the online appendix.
+2.	“dataset_rob1_qtr.dta”: Used in “robustness sample choice” section 6.2 and reported in online appendix. 
+3.	“dataset_rob2_qtr.dta” : Used in “robustness sample choice” section 6.2 and reported in online appendix. 
+4.	“dataset_base_qtr_rect.dta”: : Used in “robustness zero trade flows” section 6.2 and reported in online appendix. 
+5.	“dataset_gt_base_qtr.dta”: Used in “good-level effects” section 5.5 and figure 5 and table 3 as well as in the online appendix. 
+6.	“dataset_world_base_yr.dta”: Used in “good-level effects” section 5.4 and figure 4 as well as in the online appendix. For proprietary reasons, this dataset is not available in the repository files. Users with access to the data can reproduce the sample using the do-files described above.
 
 Step 4: Estimation
 
