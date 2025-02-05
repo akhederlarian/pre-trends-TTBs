@@ -8,7 +8,7 @@ This README file provides instructions to replicate the results presented in the
 The analysis in this paper uses four sources of data:
 1.	Global Temporary Trade Barriers (GTTB) Database by the World Bank (WB): This data is publicly available online following https://www.worldbank.org/en/data/interactive/2021/03/02/temporary-trade-barriers-database. We downloaded the data used in the analysis by 10/2022. In the replication files you can find the downloaded data in the folders “AD” for antidumping cases and “CVDs” for countervailing duties cases.
 2.	U.S. imports downloaded from the U.S. census using the API.  Due to proprietary constraints, this data cannot be made available via the journal's webpage. However, we have included the do-file that allows researchers to download the data themselves. The do-file is called “download_trade_us.do”.
-3.	World trade from the Global Trade Atlas (GTA) commercialized by the IHS Markit (https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas). Because this data was purchased it cannot be made available via the journal's webpage. 
+3.	World trade from the Global Trade Atlas (GTA) commercialized by the IHS Markit (https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas). Because this data was purchased it cannot be made available via the journal's webpage. This affects the results in section 5.4. “Supplier or supplier-destination pre-trends?”.
 4.	Updated product concordance files from Pierce and Schott (2012). This raw file used to define the unique concordance between setyr and HS-10 digits can be found in “raw_files/hts_concordance_update.dta”.
    
 **Organization of the Replication Files**
@@ -94,7 +94,7 @@ The output files are all the datasets used in the estimation of results of the m
 3.	“dataset_rob2_qtr.dta”
 4.	“dataset_base_qtr_rect.dta”
 5.	“dataset_gt_base_qtr.dta”
-6.	“dataset_world_base_yr.dta”
+6.	“dataset_world_base_yr.dta”: For proprietary reasons, this dataset is not available in the repository files. Users with access to the data can reproduce the sample using the do-files described above.
 
 Step 4: Estimation
 
